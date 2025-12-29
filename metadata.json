@@ -1,0 +1,7 @@
+{
+  "name": "ProjectFlow Pro",
+  "description": "A comprehensive project management system for tracking services, materials, collaborators, and financial balances with integrated reporting and AI insights.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
