@@ -1,9 +1,17 @@
-
 {
   "name": "projectflow-pro",
   "version": "1.0.0",
   "description": "Sistema de Gestão de Projetos com React e Python",
   "scripts": {
+    "dev:python": "python app.py",
     "start": "python app.py"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.48.1",
+    "lucide-react": "^0.562.0",
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3",
+    "react-router-dom": "^7.11.0",
+    "recharts": "^3.6.0"
   }
 }

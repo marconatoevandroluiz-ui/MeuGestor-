@@ -1,6 +1,15 @@
-
 {
   "version": 2,
+  "builds": [
+    {
+      "src": "api/index.py",
+      "use": "@vercel/python"
+    },
+    {
+      "src": "index.html",
+      "use": "@vercel/static"
+    }
+  ],
   "rewrites": [
     {
       "source": "/api/(.*)",
@@ -11,10 +20,7 @@
       "destination": "/index.html"
     }
   ],
-  "functions": {
-    "api/*.py": {
-      "memory": 512,
-      "maxDuration": 10
-    }
+  "env": {
+    "PYTHON_VERSION": "3.9"
   }
 }
