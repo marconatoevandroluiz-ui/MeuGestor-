@@ -13,7 +13,8 @@
   ],
   "functions": {
     "api/*.py": {
-      "runtime": "vercel-python@0.0.6"
+      "memory": 512,
+      "maxDuration": 10
     }
   }
 }
